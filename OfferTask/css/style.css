@@ -1,0 +1,174 @@
+/* Import Normalize.css */
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css";
+/* Import Fonts */
+@font-face {
+  font-family: 'DroidSans';
+  src: url("../fonts/DroidSans.eot");
+  src: url("../fonts/DroidSans.woff2") format("woff2"), url("../fonts/DroidSans.woff") format("woff"), url("../fonts/DroidSans.ttf") format("truetype"), url("../fonts/DroidSans.svg#DroidSans") format("svg"), url("../fonts/DroidSans.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DroidSans';
+  src: url("../fonts/DroidSans-Bold.eot");
+  src: url("../fonts/DroidSans-Bold.woff2") format("woff2"), url("../fonts/DroidSans-Bold.woff") format("woff"), url("../fonts/DroidSans-Bold.ttf") format("truetype"), url("../fonts/DroidSans-Bold.svg#DroidSans-Bold") format("svg"), url("../fonts/DroidSans-Bold.eot?#iefix") format("embedded-opentype");
+  font-weight: bold;
+  font-style: normal; }
+/* SASS Vars and Mixins */
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: DroidSans, sans-serif;
+  font-size: 13px;
+  color: #7E8EAB;
+  background-color: #182330; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+ul li {
+  list-style: none; }
+
+a {
+  color: #7E8EAB;
+  text-decoration: none; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+/* End General Styles */
+header {
+  background-color: #242D3D;
+  padding: 0 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px; }
+
+.brand-nav {
+  font-size: 20px;
+  padding: 11px 19px 17px 0; }
+
+.main-nav {
+  display: flex; }
+  .main-nav ul {
+    display: flex; }
+    .main-nav ul li a {
+      display: block;
+      padding: 17px 9px;
+      margin: 0 7px;
+      border-bottom: 3px solid transparent; }
+      .main-nav ul li a:hover {
+        color: #E0E3EA;
+        border-bottom-color: #E0E3EA; }
+      .main-nav ul li a.active {
+        color: #E0E3EA;
+        border-bottom-color: #E0E3EA; }
+
+.login ul {
+  display: flex; }
+  .login ul li a {
+    display: block;
+    padding: 17px 16px; }
+    .login ul li a:hover {
+      color: #E0E3EA; }
+  .login ul i {
+    font-size: 16px; }
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.top-section {
+  margin-bottom: 30px; }
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 32px; }
+  .heading h2 {
+    font-size: 20px;
+    color: #E0E3EA; }
+
+.heading-estimated span {
+  color: #E0E3EA; }
+
+.content-nav {
+  background-color: #242D3D;
+  padding: 0 30px; }
+  .content-nav ul {
+    display: flex; }
+    .content-nav ul li a {
+      display: block;
+      padding: 23px 17px;
+      margin-right: 6px;
+      border-bottom: 3px solid transparent; }
+      .content-nav ul li a:hover {
+        color: #E0E3EA;
+        border-bottom-color: #E0E3EA; }
+      .content-nav ul li a.active {
+        color: #E0E3EA;
+        border-bottom-color: #E0E3EA; }
+
+.content-section {
+  background-color: #242D3D;
+  padding: 30px; }
+
+.row-title, .row-value {
+  margin-bottom: 26px; }
+  .row-title ul, .row-value ul {
+    display: flex; }
+    .row-title ul li, .row-value ul li {
+      display: block; }
+      .row-title ul li:nth-child(1), .row-value ul li:nth-child(1) {
+        width: 145px; }
+      .row-title ul li:nth-child(2), .row-value ul li:nth-child(2) {
+        width: 210px; }
+      .row-title ul li:nth-child(3), .row-value ul li:nth-child(3) {
+        width: 205px; }
+
+.row-value {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between; }
+  .row-value ul li {
+    color: #E0E3EA; }
+
+.close-button {
+  margin-right: 22px; }
+
+.withdraw-form-block {
+  display: flex; }
+
+.withdraw-form {
+  width: 481px;
+  max-width: 100%;
+  margin-right: 30px; }
+  .withdraw-form input {
+    background-color: #182330;
+    color: #7E8EAB;
+    border: 0;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px; }
+
+.form-description {
+  width: 406px;
+  max-width: 100%; }
+  .form-description p {
+    line-height: 20px; }
+    .form-description p:not(:last-child) {
+      margin-bottom: 15px; }
+
+/* Import Media Queris */
+
+/*# sourceMappingURL=style.css.map */
