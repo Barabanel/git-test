@@ -2,28 +2,32 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Withdraw</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header>
+		<div class="brand-nav">
+			<a href="#">Edex</a>
+		</div>
 		<nav class="main-nav">
-			<div class="brand-nav">
-				<a href="#">Edex</a>
-			</div>
 			<ul>
 				<li><a href="#">Exchange</a></li>
 				<li><a href="#" class="active">Funding</a></li>
 				<li><a href="#">Orders</a></li>
 			</ul>
+			<div class="login">
+				<ul>
+					<li><a href="#">Logout</a></li>
+					<li><a href="#"><i class="fas fa-cog"></i></a></li>
+				</ul>
+			</div>
 		</nav>
-		<div class="login">
-			<ul>
-				<li><a href="#">Logout</a></li>
-				<li><a href="#"><i class="fas fa-cog"></i></a></li>
-			</ul>
-		</div>
+		<a href="javascript:;" class="burger-menu">
+			<span class="ico"></span>
+		</a>
 	</header>
 
 	<main>
@@ -54,33 +58,333 @@
 						<li>Orders</li>
 					</ul>
 				</div>
-				<div class="row-value">
-					<ul>
-						<li>ETH</li>
-						<li>Ethereum</li>
-						<li>0.17</li>
-						<li>0.17</li>
-					</ul>
-					<a href="#" class="close-button">
-						close
-					</a>
-				</div>
-				<div class="withdraw-form-block">
-					<form class="withdraw-form">
-						<input type="text" value="Address">
-						<input type="text" value="Amount">
-					</form>
-					<div class="form-description">
-						<p>
-							After you’ve submitted your withdrawal request, we’ll send you a confirmation email. Please click the link in the email to confirm your withdrawal.
-						</p>
-						<p>
-							Withdrawal are currently sent out approximately every 30 minutes.
-						</p>
+				
+				<div class="funding-table">
+
+					<div class="row-value-wrap">
+						<div class="row-value">
+							<ul>
+								<li>ETH</li>
+								<li>Ethereum</li>
+								<li>0.17</li>
+								<li>0.17</li>
+							</ul>
+							<div class="row-buttons">
+								<button class="deposit">Deposit</button>
+								<button class="withdraw">Withdraw</button>
+							</div>
+							<a class="close-button" href="#">
+								close
+							</a>
+						</div>
+
+						<!-- form-block start-->
+						<div class="withdraw-form-wrap">
+							<div class="withdraw-form-block">
+								<form class="withdraw-form">
+									<div class="adress-wrap">
+										<input type="text" value="Address">
+									</div>
+									<div class="amount-wrap">
+										<input type="text" value="Amount">
+										<span>ETH</span>
+									</div>
+									<div class="form-recieve">
+										<div class="recieve">
+											You’ll receive: 
+											<span>1.8016 ETH</span>
+										</div>
+										<div class="fee">
+											Fee:
+											<span>0.001 ETH</span>
+										</div>
+									</div>
+									<button class="button-blue">WITHDRAW</button>
+								</form>
+								<div class="form-description">
+									<p>
+										After you’ve submitted your withdrawal request, we’ll send you a confirmation email. Please click the link in the email to confirm your withdrawal.
+									</p>
+									<p>
+										Withdrawal are currently sent out approximately every 30 minutes.
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- form-block end -->
 					</div>
+
+					<div class="row-value-wrap">
+						<div class="row-value">
+							<ul>
+								<li>ETH</li>
+								<li>Ethereum</li>
+								<li>0.17</li>
+								<li>0.17</li>
+							</ul>
+							<div class="row-buttons">
+								<button class="deposit">Deposit</button>
+								<button class="withdraw">Withdraw</button>
+							</div>
+							<a class="close-button" href="#">
+								close
+							</a>
+						</div>
+
+						<!-- form-block start-->
+						<div class="withdraw-form-wrap">
+							<div class="withdraw-form-block">
+								<form class="withdraw-form">
+									<div class="adress-wrap">
+										<input type="text" value="Address">
+									</div>
+									<div class="amount-wrap">
+										<input type="text" value="Amount">
+										<span>ETH</span>
+									</div>
+									<div class="form-recieve">
+										<div class="recieve">
+											You’ll receive: 
+											<span>1.8016 ETH</span>
+										</div>
+										<div class="fee">
+											Fee:
+											<span>0.001 ETH</span>
+										</div>
+									</div>
+									<button class="button-blue">WITHDRAW</button>
+								</form>
+								<div class="form-description">
+									<p>
+										After you’ve submitted your withdrawal request, we’ll send you a confirmation email. Please click the link in the email to confirm your withdrawal.
+									</p>
+									<p>
+										Withdrawal are currently sent out approximately every 30 minutes.
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- form-block end -->
+					</div>
+
+					<div class="row-value-wrap">
+						<div class="row-value">
+							<ul>
+								<li>ETH</li>
+								<li>Ethereum</li>
+								<li>0.17</li>
+								<li>0.17</li>
+							</ul>
+							<div class="row-buttons">
+								<button class="deposit">Deposit</button>
+								<button class="withdraw">Withdraw</button>
+							</div>
+							<a class="close-button" href="#">
+								close
+							</a>
+						</div>
+
+						<!-- form-block start-->
+						<div class="withdraw-form-wrap">
+							<div class="withdraw-form-block">
+								<form class="withdraw-form">
+									<div class="adress-wrap">
+										<input type="text" value="Address">
+									</div>
+									<div class="amount-wrap">
+										<input type="text" value="Amount">
+										<span>ETH</span>
+									</div>
+									<div class="form-recieve">
+										<div class="recieve">
+											You’ll receive: 
+											<span>1.8016 ETH</span>
+										</div>
+										<div class="fee">
+											Fee:
+											<span>0.001 ETH</span>
+										</div>
+									</div>
+									<button class="button-blue">WITHDRAW</button>
+								</form>
+								<div class="form-description">
+									<p>
+										After you’ve submitted your withdrawal request, we’ll send you a confirmation email. Please click the link in the email to confirm your withdrawal.
+									</p>
+									<p>
+										Withdrawal are currently sent out approximately every 30 minutes.
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- form-block end -->
+					</div>
+
+					<div class="row-value-wrap">
+						<div class="row-value">
+							<ul>
+								<li>ETH</li>
+								<li>Ethereum</li>
+								<li>0.17</li>
+								<li>0.17</li>
+							</ul>
+							<div class="row-buttons">
+								<button class="deposit">Deposit</button>
+								<button class="withdraw">Withdraw</button>
+							</div>
+							<a class="close-button" href="#">
+								close
+							</a>
+						</div>
+
+						<!-- form-block start-->
+						<div class="withdraw-form-wrap">
+							<div class="withdraw-form-block">
+								<form class="withdraw-form">
+									<div class="adress-wrap">
+										<input type="text" value="Address">
+									</div>
+									<div class="amount-wrap">
+										<input type="text" value="Amount">
+										<span>ETH</span>
+									</div>
+									<div class="form-recieve">
+										<div class="recieve">
+											You’ll receive: 
+											<span>1.8016 ETH</span>
+										</div>
+										<div class="fee">
+											Fee:
+											<span>0.001 ETH</span>
+										</div>
+									</div>
+									<button class="button-blue">WITHDRAW</button>
+								</form>
+								<div class="form-description">
+									<p>
+										After you’ve submitted your withdrawal request, we’ll send you a confirmation email. Please click the link in the email to confirm your withdrawal.
+									</p>
+									<p>
+										Withdrawal are currently sent out approximately every 30 minutes.
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- form-block end -->
+					</div>
+
+					<div class="row-value-wrap">
+						<div class="row-value">
+							<ul>
+								<li>ETH</li>
+								<li>Ethereum</li>
+								<li>0.17</li>
+								<li>0.17</li>
+							</ul>
+							<div class="row-buttons">
+								<button class="deposit">Deposit</button>
+								<button class="withdraw">Withdraw</button>
+							</div>
+							<a class="close-button" href="#">
+								close
+							</a>
+						</div>
+
+						<!-- form-block start-->
+						<div class="withdraw-form-wrap">
+							<div class="withdraw-form-block">
+								<form class="withdraw-form">
+									<div class="adress-wrap">
+										<input type="text" value="Address">
+									</div>
+									<div class="amount-wrap">
+										<input type="text" value="Amount">
+										<span>ETH</span>
+									</div>
+									<div class="form-recieve">
+										<div class="recieve">
+											You’ll receive: 
+											<span>1.8016 ETH</span>
+										</div>
+										<div class="fee">
+											Fee:
+											<span>0.001 ETH</span>
+										</div>
+									</div>
+									<button class="button-blue">WITHDRAW</button>
+								</form>
+								<div class="form-description">
+									<p>
+										After you’ve submitted your withdrawal request, we’ll send you a confirmation email. Please click the link in the email to confirm your withdrawal.
+									</p>
+									<p>
+										Withdrawal are currently sent out approximately every 30 minutes.
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- form-block end -->
+					</div>
+
+					<div class="row-value-wrap">
+						<div class="row-value">
+							<ul>
+								<li>ETH</li>
+								<li>Ethereum</li>
+								<li>0.17</li>
+								<li>0.17</li>
+							</ul>
+							<div class="row-buttons">
+								<button class="deposit">Deposit</button>
+								<button class="withdraw">Withdraw</button>
+							</div>
+							<a class="close-button" href="#">
+								close
+							</a>
+						</div>
+
+						<!-- form-block start-->
+						<div class="withdraw-form-wrap">
+							<div class="withdraw-form-block">
+								<form class="withdraw-form">
+									<div class="adress-wrap">
+										<input type="text" value="Address">
+									</div>
+									<div class="amount-wrap">
+										<input type="text" value="Amount">
+										<span>ETH</span>
+									</div>
+									<div class="form-recieve">
+										<div class="recieve">
+											You’ll receive: 
+											<span>1.8016 ETH</span>
+										</div>
+										<div class="fee">
+											Fee:
+											<span>0.001 ETH</span>
+										</div>
+									</div>
+									<button class="button-blue">WITHDRAW</button>
+								</form>
+								<div class="form-description">
+									<p>
+										After you’ve submitted your withdrawal request, we’ll send you a confirmation email. Please click the link in the email to confirm your withdrawal.
+									</p>
+									<p>
+										Withdrawal are currently sent out approximately every 30 minutes.
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- form-block end -->
+					</div>
+					
 				</div>
 			</section>
 		</div>
 	</main>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>

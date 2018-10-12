@@ -1,3 +1,125 @@
 @media screen and (max-width: 992px) {
-	
+	.row-title, .row-value {
+		ul {
+			width: calc(100% - 215px);
+
+			li {
+
+				&:nth-child(1) {
+					width: 130px;
+					max-width: 25%;
+				}
+				&:nth-child(2) {
+					width: 180px;
+					max-width: 35%;
+				}
+				&:nth-child(3) {
+					width: 170px;
+					max-width: 30%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.brand-nav {
+		padding-right: 0;
+	}
+
+	.burger-menu {
+		display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-orient: horizontal;
+	    -webkit-box-direction: normal;
+	    -ms-flex-flow: row nowrap;
+	    flex-flow: row nowrap;
+	    margin-top: 24px;
+	}
+
+	.main-nav {
+		display: none;
+	}
+
+	.show-nav .main-nav {
+		display: block;
+		ul {
+			display: block;
+
+			li {
+				display: list-item;
+    			text-align: center;
+
+    			a {
+    				border-bottom: 0;
+    			}
+			}
+		}
+	}
+
+	.row-title, .row-value {
+		ul {
+			width: 100%;
+		}
+	}
+
+	.funding-table .row-buttons {
+		margin: 20px 0 10px;
+
+		.deposit {
+			margin-left: 0;
+		}
+	}
+
+	.withdraw-form-block {
+	    margin-top: 8px;
+	    margin-bottom: 20px;
+	}
+
+	.close-button {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-right: 0;
+		padding: 5px 0;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	body {
+		font-size: 11px;
+	}
+
+	.content-section {
+		padding: 15px; 
+	}
+
+	.row-title, .row-value {
+		ul {
+
+			li {
+
+				&:nth-child(1), 
+				&:nth-child(2), 
+				&:nth-child(3),
+				&:nth-child(4) {
+					max-width: 25%;
+				}
+			}
+		}
+	}
+
+	.withdraw-form-block {
+		flex-wrap: wrap;
+	}
+
+	.withdraw-form {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.form-description {
+		margin-top: 20px;
+		width: 100%;
+	}
 }
